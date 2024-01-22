@@ -1,0 +1,15 @@
+.bidder {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bidder:hover {
+    background-color: rgb(225, 225, 225);
+    color: black;
+}
