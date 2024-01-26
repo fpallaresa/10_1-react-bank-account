@@ -5,7 +5,7 @@ const Bidder = ({name, offer, addBidder}) => {
 
     return (
     
-    <button className="bidder" onClick={addBidder}>{name} quiere pujar {offer}€</button>
+    <button className="bidder" onClick={() => addBidder(offer)}>{name} quiere pujar {offer}€</button>
 
     );
 }
